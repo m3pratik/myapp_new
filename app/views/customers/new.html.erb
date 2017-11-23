@@ -1,15 +1,12 @@
-
-  <title>Channel Operator</title>
-
-  <!-- Bootstrap core CSS-->
-  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"> -->
-  <!-- Custom fonts for this template-->
-  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
-  <!-- Page level plugin CSS-->
-  <!-- <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet"> -->
-  <!-- Custom styles for this template-->
-  <!-- <link href="css/sb-admin.css" rel="stylesheet"> -->
-
+<title>Channel Operator</title>
+<!-- Bootstrap core CSS-->
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- Custom fonts for this template-->
+<!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+<!-- Page level plugin CSS-->
+<!-- <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet"> -->
+<!-- Custom styles for this template-->
+<!-- <link href="css/sb-admin.css" rel="stylesheet"> -->
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
   <!-- Navigation-->
   <%= render partial: "layouts/navbar"%>
@@ -23,9 +20,49 @@
         </li>
         <li class="breadcrumb-item active">My Dashboard</li>
       </ol>
-      <!-- Icon Cards-->
-       Example-->
-      <!-- Example DataTables Card-->
+    </div>
+    
+    <div class= "container-fluid-new-register">
+      <h4 align="center">New Customer Registration</h4>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Full Name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name here">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Mobile Number</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mobile no">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Address</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Select Area</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Select Plan</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Start-date</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name here">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->
@@ -47,7 +84,7 @@
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">×</span>
+            <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
@@ -58,6 +95,5 @@
         </div>
       </div>
     </div>
-    </div>
+  </div>
 </body>
-
