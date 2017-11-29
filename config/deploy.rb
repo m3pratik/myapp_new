@@ -5,7 +5,7 @@ server '34.213.71.216', user: 'deploy', roles: %w{web app db}
 
 set :application, 'myapp_new'
 set :repo_url, 'git@github.com:pratikhet/myapp_new.git' # Edit this to match your repository
-set :branch, :master
+set :branch, :test_client
 set :deploy_to, '/var/www/myapp_new'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
